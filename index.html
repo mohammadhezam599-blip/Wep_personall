@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>خدمات السباكهة والكهرباء</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="hesder.html">
+            <link rel="stylesheet" href="footer.html">
+
+
+</head>
+<body>
+     
+  <!-- <?php include 'header.php'; ?> -->
+
+  
+  <!-- <main> -->
+    <header>
+        <h2>مرحبا بكم في موقعنا 👋</h2>
+    </header>
+    
+      <h1>شعارنا نحن الافضل</h1>
+    <section class="intro">
+       
+      <h2>مرحبا بك 👋</h2>
+      <p>
+        نحن نقدم خدمات <b>السباكة</b> و <b>الكهرباء</b> بخبرة عالية
+        وسرعة في الإنجاز. معنا تجد الجودة والراحة في مكان واحد.
+      </p>
+    </section>
+
+    
+    <section class="form-section">
+      <h2>اطلب الخدمة الآن</h2>
+      <form method="post" action="">
+        <label>الاسم:</label>
+        <input type="text" name="username"placeholder="ادخل الاسم" required>
+
+        <label>رقم الجوال:</label>
+        <input type="text" name="phone" placeholder="ادخل رقم الجوال"required>
+
+        <label>الخدمة المطلوبة:</label>
+        <select name="service" required>
+          <option value="سباكة">سباكة</option>
+          <option value="كهرباء">كهرباء</option>
+          <option value="ترميم">ترميم</option>
+        </select>
+        <label >وصف حالة الطلب حول المراد اصلاحه</label>
+        <textarea name="message" rows="5">
+          </textarea><br>
+  
+        <label>العنوان:</label>
+        <input type="text" id="address" name="location" placeholder="الرجاء نسخ موقعك الجغرافي ولصقه هنا لكي يتم الوصول اليك"  required>
+
+        <a href="https://wa.me/967772765735">
+        <h1 class="whatsapp-title">ارسال الطلب</h1>
+        </a>
+      </div> 
+      </form>
+
+    </section>
+   
+    <!-- عرض البيانات بعد الإرسال -->
+    <!-- <?php
+      if { (isset($_POST['send'])) 
+        $name = $_POST['username'];
+        $phone = $_POST['phone'];
+        $service = $_POST['service'];
+        $address = $_POST['address'];
+        $address = $_POST['message'];
+
+        echo "<div class='result'>";
+        echo "<h3>✅ تم استلام طلبك</h3>";
+        echo "<p><b>الاسم:</b> $name</p>";
+        echo "<p><b>رقم الجوال:</b> $phone</p>";
+        echo "<p><b>الخدمة:</b> $service</p>";
+        echo "<p><b>العنوان:</b> $address</p>";
+           echo "<p><b>العنوان:</b> $message</p>";
+        echo "</div>";
+      }
+    ?> -->
+  <!-- </main> -->
+
+  <!-- الفوتر -->
+  <!-- <?php include 'footer.php'; ?> -->
+
+
+  <footer>
+        <h4>تصميم المهندس : محمد حمود</h4>
+        <h5>لتواصل </h5>
+        <p><img src="image/m.ico" alt="email"><a href="mohammadhezam599@gmail.com">mohammedhezam@gmail.com</a></p>
+       <a href="https:/wa.me/967772765735"> <img src="image/w.ico" alt=""> وتساب</a>
+       
+    </footer>
+
+</body>
+</html>
